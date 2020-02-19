@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Brakebills Survey Form</title>
+    <link href="css/stylesheet.css" rel="stylesheet"</link>
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Tienne&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+<!-- Header -->
+
+  <!-- <img src="images/bb-logo.png" id="logo" alt="logo"/>
+  <h1 id="title">Brakebills University of Magical Pedagogy</h1>
+  <h2 id="subtitle">Student Survey</h2> -->
+
+
+        </div>
+
+    <br><br>
+
+<!-- Background  -->
+
+    <div class="background">
+      <img src="images/bb-logo.png" id="logo" alt="logo"/>
+      <h1 id="title">Brakebills University of Magical Pedagogy</h1>
+      <h2 id="subtitle">Student Survey</h2>
+<br> <br>
+        <div id="form" class="boxed">
+          <hr>
+          <br>
+        <p id="description">This is your opportunity to share your thoughts about your education at Brakebills.<br> Use it wisely.</p>
+        <br>
+
+
+<!-- Form -->
+
+
+    <form id="survey-form">
+      <!-- <div class="row-tab">
+        <div class="label-info"> -->
+
+      <!-- <div class="form-elements"> -->
+      <hr>
+    <!-- <p> -->
+      <label id="name-label">
+        <p>Name</p>
+      <!-- <p> -->
+        <input id="name" input type="text" placeholder="Enter your name" required>
+      </label>
+
+      <label id="email-label">
+        <p>Email</p>
+
+        <input id="email" input type="email" placeholder="Enter your email" required>
+      </label>
+    <p>
+      <label id="number-label">Age</p>
+        <p>
+        <input id="number" input type="number" max="100" min="12" placeholder="Enter your age" required>
+      </label></p>
+
+<hr>
+
+
+    <p>Select your Magical Discipline</p>
+
+      <select id="dropdown" name="dropdown">
+        <option value="Healing">Healing</option>
+        <option value="Illusion">Illusion</option>
+        <option value="Natural">Natural</option>
+        <option value="Knowledge">Knowledge</option>
+        <option value="Physical">Physical</option>
+        <option value="Psychic">Psychic</option>
+      </select>
+<br><br>
+<hr>
+
+
+<br>
+    <p><i>Would you recommend the Brakebills University of Magical Pedagogy to a prospective student?</i></p>
+    <label for="yes">
+      <input id="yes" value="1" type="radio" name="recommend">Definitely, it's great here
+  </label>
+<br>
+      <label for="no">
+        <input id="no" value="2" type="radio" name="recommend">No, this place is terrible
+      </label>
+<br>
+      <label for="maybe">
+        <input id="maybe" value="3" type="radio" name="recommend">Maybe, I'll say more below
+      </label>
+<br>
+      <label for="unsure">
+        <input id="unsure" value="4" type="radio" name="recommend">Unsure, I'll say more below
+    </label>
+<br>
+<br>
+
+
+
+  <p><i>What would you like to see improved? (Check all that apply)</i></p>
+    <!-- <p> -->
+    <label for="staff-knowledge"><input id="staff knowledge" type="checkbox" name="staff-knowledge" value="1"> Staff subject knowledge</label>
+<br>
+    <label for="accomodation"><input id="accomodation" type="checkbox" name="accomodation" value="2"> Accomodation</label>
+<br>
+    <label for="battle-magic"><input id="battle-magic" type="checkbox" name="battle-magic" value="3"> Teach us battle magic</label>
+<br>
+    <label for="library"><input id="library" type="checkbox" name="library" value="4"> Library facilities</label>
+<br>
+    <label for="ambient-magic"><input id="ambient-magic" type="checkbox" name="ambient-magic" value="5"> More ambient magic</label>
+<br><br>
+<hr>
+<br>
+    <p><i>Further comments</i></p>
+    <textarea id="comments" input type="text" placeholder="Add Your Comments Here"></textarea>
+
+
+
+<br><br><br>
+    <button id="submit" type="submit">Submit</button>
+<br><br><br>
+    </form>
+</div>
+</div>
+</div>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
