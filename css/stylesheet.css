@@ -31,8 +31,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-repeat:no-repeat;
-    background-size: contain; */
     display: block;
     min-width: 100%;
     min-height: 100%;
@@ -46,14 +44,6 @@ h2 {
   text
 }
 
-/* .background img {
-  position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: auto;
-   opacity: 0.2;
-} */
 
 .header {
   padding: 40px;
@@ -70,10 +60,10 @@ h2 {
   padding: 20px;
 }
 
-
 #description {
   text-align: center;
 }
+
 .boxed {
   background: black;
   opacity: 0.8;
@@ -84,9 +74,7 @@ h2 {
   text-align: left;
   padding: 80px;
   border-radius: 20px;
-
 }
-
 
 input[type=text],[type=email], [type=number], [type=textarea], [type=dropdown] {
   width: 100%;
@@ -96,7 +84,6 @@ input[type=text],[type=email], [type=number], [type=textarea], [type=dropdown] {
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 1em;
-
 }
 
 #dropdown  {
@@ -132,10 +119,8 @@ input[type=text],[type=email], [type=number], [type=textarea], [type=dropdown] {
   align-items: center;
 }
 
-
 #label {
   display: flex;
-  /* align-items: center; */
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
   text-align: left;
